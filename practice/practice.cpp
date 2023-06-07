@@ -1,33 +1,14 @@
 #include <iostream>
 using namespace std;
-
-class Solution {
-    public:
-        int arrayOperations(int n, int arr[]){
-            for(int i=0;i<n;i++){
-                if(arr[i]==0){
-                    cout<<i;
-                    
-                }
-            }
-        }
-};
+/* #include <stdio.h> */
 
 int main(){
-    int t;
-    cin>>t;
-    while(t--){
-        int n;
-        cin>>n;
-
-        int arr[n];
-        for(int i=0;i<n;i++){
-            cin>>arr[i];
-        }
-
-        Solution  obj;
-        int res = obj.arrayOperations(n,arr);
-
-        cout<<res<<endl;
-    }
+    char arr[5];
+    arr[0] = 'h';
+    arr[1] = 'h';
+    arr[2] = 'h';
+    arr[3] = 'h';
+    arr[5] = '\0';
+    cout<<arr;
+    return 0;
 }
